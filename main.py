@@ -61,7 +61,7 @@ def main(y):  # main function where the body of the code and algorithm are
                 newSS.initNums.append(j)
                 swappedSums.append(newSS)
 
-    # this is eventually going to be the structure that iterates through each swappedSum object and print its value
+    # this iterates through each swappedSum object and print its value
     # and corresponding list of initial numbers that have a permutation to add to the sum
     """ Eventually this will not print to the console, but print to a .txt file """
     for swappedSum in swappedSums:
